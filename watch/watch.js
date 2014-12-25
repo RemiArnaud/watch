@@ -12,7 +12,7 @@
 		}else{
 			body.appendChild(pre);
 		}
-		if(body.childNodes.length > 100){
+		if(body.childNodes.length > 1000){
 			for (i = 0; i< 50; i += 1){
 				body.removeChild(body.childNodes[body.childNodes.length]);
 			}

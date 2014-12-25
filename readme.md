@@ -1,19 +1,23 @@
 Watch html
 ==========
 
-Redirecting grunt-watch stdout to a websocket using socket.io
+tails a file (e.g. log) to a web page using socket.io
+This works on windows
 
 Usage
 -----
 
 just run
 
-        node watch.js
+        node watch.js FILE_PATH
 
-where your grunt file is, and it will start a server on port 3000
-so you can connect to it and see the stdout of grunt-watch live from any device
-just go to
+it will start a server on port 3333
+so you can connect to it and see the file live from a wab browser
 
-        http://[your-ip]:3000
+        http://[your-ip]:3333/watch
 
-and you will see the output as it is generated
+Thanks
+-------
+
+originaly cloned from https://github.com/picanteverde/watch
+
